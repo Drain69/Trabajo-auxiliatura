@@ -1,0 +1,136 @@
+/* Estilo de la primera pagina */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #76eebc;
+    }
+.contenedor-centrado {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+}
+.caja {
+    background-color:black;
+    color: white;
+    padding: 22px;
+    width: 120px;
+    height: 100px;
+    text-align: center;  
+    line-height: 25px; 
+}
+
+
+
+
+
+/* Estilo de la segunda pagina */
+.layout-flex {
+    display: flex; 
+    min-height: 100vh; 
+}
+.contenido-lateral {
+    width: 250px; 
+    background-color: #a8d5e5; 
+    padding: 20px;
+    flex-shrink: 0; 
+}
+
+.contenido-principal {
+    flex-grow: 1; 
+    background-color: #d8e8e3; 
+    padding: 20px;
+}
+
+.contenido-lateral ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contenido-lateral li {
+    padding: 10px 0;
+    border-bottom: 1px solid #7cb0c1;
+    color: #333;
+}
+
+.contenedor-centrado-tarjeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #444; 
+}
+.tarjeta {
+    display: flex; 
+    flex-direction: column; 
+    width: 350px;
+    height: 400px; 
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+
+
+
+/* Estilo de la tercera pagina */
+.tarjeta-cabecera {
+    background-color: rgb(5, 0, 0);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.tarjeta-cuerpo {
+    display: flex;
+    flex-grow: 1; 
+    padding: 12px; 
+}
+.tarjeta-pie {
+    background-color: #aaa; 
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+
+/* Estilo de la cuarta pagina */
+.contenedor-principal {
+    display: flex; 
+    min-height: 100vh;
+}
+
+.columna-izquierda {
+    width: 600px; 
+    background-color: #2b8677; 
+    padding: 20px;
+    flex-shrink: 0; 
+    display: flex; 
+    color: white;
+}
+
+.contenedor-derecha {
+    flex-grow: 1; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.derecha-alta,
+.derecha-baja {
+    flex-grow: 1; 
+    padding: 20px;
+    display: flex;
+}
+.derecha-alta {
+    background-color: #ffffff; 
+    border-bottom: 2px solid #444;
+}
+
+.derecha-baja {
+    background-color: #ffffff; 
+}
